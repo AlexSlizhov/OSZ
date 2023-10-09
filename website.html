@@ -35,6 +35,47 @@
         <option>HTML</option>
         <option>CSS</option>
         <option>JavaScript</option>
-    </select>
+    </select><br>
+    <form method="post">
+        <p><b>Введите Ваш ответ:</b></p>
+        <p><textarea rows="10" cols="45" name="text" placeholder="Текст" required></textarea></p>
+        <p><input type="submit" value="Отправить"></p>
+    </form><br>
+    <input type="text" size="30" placeholder="Ваше имя"><br>
+    <input type="password" size="8" maxlength="5"><br>
+    <input type="checkbox" checked="checked"><br>
+    <input type="radio" name="radio"><br>
+    <input type="hidden" value="скрытое поле"><br>
+    <input type="file"><br>
+    <input type="submit" value="Отправить"><br>
+    <input type="reset" value="Очистить"><br>
+    <input type="button" value="Просто кнопка"><br>
+    <form>
+        <p><input list="cocktail"></p>
+        <datalist id="cocktail">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>React</option>
+        </datalist>
+    </form><br>
+    <form action="...">
+        <p><b>С чего начать учебу?</b></p>
+        <p><input type="radio" name="answer" value="a1">HTML<br>
+            <input type="radio" name="answer" value="a2">CSS<br>
+            <input type="radio" name="answer" value="a3">JavaScript</p>
+        <p><input type="submit" value="Отправить"></p>
+    </form><br>
+    <form action="handler.php">
+        <p><mark>Вход на сайт</mark></p>
+        <p>Email:<input type="email" name="login"></p>
+        <p>Пароль:<input type="password" name="pass"></p>
+        <p><input type="submit" value="ВПЕРЕД"></p>
+    </form><br>
+    <form action="...">
+        <p>Укажите цвет фона:<input type="color" name="bg" value="#ff0000">
+        <input type="submit" value="Отправить"></p>
+    </form><br>
+
 </body>
 </html>
